@@ -94,7 +94,7 @@ export default function Hero() {
               {/* Device card */}
               <div className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-zinc-800 shadow-2xl shadow-black/60">
                 <Image
-                  src="/images/device-front.jpg"
+                  src="/images/weathermaxtab.png"
                   alt="WeatherMax 7 weather display device"
                   width={700}
                   height={530}

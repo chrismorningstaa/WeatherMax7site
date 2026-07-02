@@ -55,7 +55,7 @@ export default function ProductShowcase() {
             <div className="absolute -inset-6 sm:-inset-10 bg-brand-yellow/5 rounded-full blur-3xl" />
             <div className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-zinc-700 shadow-2xl shadow-black/70">
               <Image
-                src="/images/device-front.jpg"
+                src="/images/weathermaxtab.png"
                 alt="WeatherMax 7 device — front view"
                 width={800}
                 height={600}
