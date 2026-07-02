@@ -15,11 +15,11 @@ const mountingOptions = [
 
 export default function ProductShowcase() {
   return (
-    <section id="product" className="bg-zinc-900 py-24 sm:py-32 border-y border-zinc-800">
+    <section id="product" className="bg-zinc-900 py-20 sm:py-28 lg:py-32 border-y border-zinc-800">
 
       {/* Accurate. Reliable. Always. full-width banner */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
-        <div className="rounded-2xl overflow-hidden border border-zinc-700 shadow-2xl shadow-black/50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 sm:mb-20">
+        <div className="rounded-xl sm:rounded-2xl overflow-hidden border border-zinc-700 shadow-2xl shadow-black/50">
           <Image
             src="/images/accurate-reliable.jpeg"
             alt="WeatherMax 7 — Accurate. Reliable. Always."
@@ -32,31 +32,28 @@ export default function ProductShowcase() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <p className="text-brand-yellow text-sm font-bold tracking-widest uppercase mb-3">
+        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-16">
+          <p className="text-brand-yellow text-xs sm:text-sm font-bold tracking-widest uppercase mb-3">
             The Device
           </p>
           <h2
-            className="font-display font-black uppercase text-white mb-5 leading-none tracking-tight"
-            style={{
-              fontFamily: "var(--font-barlow, 'Barlow Condensed', sans-serif)",
-              fontSize: "clamp(2.5rem, 6vw, 4rem)",
-            }}
+            className="font-black uppercase text-white mb-4 sm:mb-5 leading-none tracking-tight text-4xl sm:text-5xl lg:text-6xl"
+            style={{ fontFamily: "var(--font-barlow, 'Barlow Condensed', sans-serif)" }}
           >
             Designed to Be Placed<br />
             <span className="text-brand-yellow">Anywhere You Need It</span>
           </h2>
-          <p className="text-zinc-400 text-base leading-relaxed">
+          <p className="text-zinc-400 text-sm sm:text-base leading-relaxed">
             Compact touchscreen display. Bold red power button. Two mounting options.
             Built to last in any environment.
           </p>
         </div>
 
         {/* Large device image */}
-        <div className="flex justify-center mb-16">
-          <div className="relative w-full max-w-2xl">
-            <div className="absolute -inset-10 bg-brand-yellow/5 rounded-full blur-3xl" />
-            <div className="relative rounded-2xl overflow-hidden border border-zinc-700 shadow-2xl shadow-black/70">
+        <div className="flex justify-center mb-10 sm:mb-16">
+          <div className="relative w-full max-w-xs sm:max-w-lg lg:max-w-2xl">
+            <div className="absolute -inset-6 sm:-inset-10 bg-brand-yellow/5 rounded-full blur-3xl" />
+            <div className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-zinc-700 shadow-2xl shadow-black/70">
               <Image
                 src="/images/device-front.jpg"
                 alt="WeatherMax 7 device — front view"
@@ -69,13 +66,13 @@ export default function ProductShowcase() {
         </div>
 
         {/* Mounting options */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
           {mountingOptions.map((m) => (
             <div
               key={m.title}
-              className="group rounded-2xl border border-zinc-800 bg-zinc-950/50 overflow-hidden hover:border-zinc-600 transition-all"
+              className="group rounded-xl sm:rounded-2xl border border-zinc-800 bg-zinc-950/50 overflow-hidden hover:border-zinc-600 transition-all"
             >
-              <div className="relative h-64 overflow-hidden bg-zinc-800">
+              <div className="relative h-48 sm:h-64 overflow-hidden bg-zinc-800">
                 <Image
                   src={m.img}
                   alt={m.title}
@@ -92,8 +89,8 @@ export default function ProductShowcase() {
         </div>
 
         {/* Power button callout */}
-        <div className="mt-12 rounded-2xl border border-zinc-800 bg-zinc-950/50 p-8 flex flex-col md:flex-row items-center gap-8">
-          <div className="relative w-32 h-32 shrink-0">
+        <div className="mt-6 sm:mt-12 rounded-xl sm:rounded-2xl border border-zinc-800 bg-zinc-950/50 p-6 sm:p-8 flex flex-col sm:flex-row items-center gap-5 sm:gap-8 text-center sm:text-left">
+          <div className="relative w-24 h-24 sm:w-32 sm:h-32 shrink-0">
             <Image
               src="/images/power-button.jpg"
               alt="WeatherMax 7 red power button"

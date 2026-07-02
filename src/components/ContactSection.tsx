@@ -43,27 +43,26 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="bg-zinc-950 border-t border-zinc-800 py-24 sm:py-32">
+    <section id="contact" className="bg-zinc-950 border-t border-zinc-800 py-20 sm:py-28 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-20 items-start">
 
           {/* Left — Brand info */}
           <div>
-            <p className="text-brand-yellow text-sm font-bold tracking-widest uppercase mb-3">
+            <p className="text-brand-yellow text-xs sm:text-sm font-bold tracking-widest uppercase mb-3">
               Contact
             </p>
             <h2
-              className="font-display font-black uppercase text-white mb-5 leading-none tracking-tight"
+              className="font-black uppercase text-white mb-4 sm:mb-5 leading-none tracking-tight text-4xl sm:text-5xl lg:text-6xl"
               style={{
                 fontFamily: "var(--font-barlow, 'Barlow Condensed', sans-serif)",
-                fontSize: "clamp(2.5rem, 5vw, 3.5rem)",
               }}
             >
               We&apos;re Here<br />
               <span className="text-brand-yellow">to Help</span>
             </h2>
-            <p className="text-zinc-400 text-base leading-relaxed mb-10 max-w-md">
+            <p className="text-zinc-400 text-sm sm:text-base leading-relaxed mb-8 sm:mb-10 max-w-md">
               Have a question about WeatherMax 7? Need support or want to report an issue?
               Fill out the form and we&apos;ll get back to you as quickly as possible.
             </p>
