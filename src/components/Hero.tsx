@@ -124,8 +124,8 @@ export default function Hero() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white text-xs font-bold leading-none">NWS Certified Data</p>
-                  <p className="text-zinc-500 text-[11px] mt-0.5">Trusted & accurate</p>
+                  <p className="text-white text-xs font-bold leading-none">Powered by National Weather Service Data.</p>
+                  <p className="text-zinc-500 text-[11px] mt-0.5">Official NWS data</p>
                 </div>
               </div>
             </div>

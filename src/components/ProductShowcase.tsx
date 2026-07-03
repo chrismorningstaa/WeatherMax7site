@@ -45,7 +45,7 @@ export default function ProductShowcase() {
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base leading-relaxed">
             Compact touchscreen display. Bold red power button. Two mounting options.
-            Built to last in any environment.
+            Designed for reliable indoor use.
           </p>
         </div>
 

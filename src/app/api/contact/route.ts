@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
 
     await transporter.sendMail({
       from: `"WeatherMax7 Website" <${process.env.SMTP_USER}>`,
-      to: "christianitymendoza2828@gmail.com",
+      to: "office@atmoscorex.com",
       replyTo: email,
       subject: `[WeatherMax7] ${subject}`,
       html: `

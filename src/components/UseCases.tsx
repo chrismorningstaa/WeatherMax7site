@@ -17,7 +17,7 @@ const cases = [
   {
     icon: "🏕️",
     title: "Cabin / Off-Grid",
-    desc: "No cell signal? No problem. Works where Wi-Fi and cell service don't exist.",
+    desc: "No Wi-Fi Required. Get reliable weather updates without needing a wireless network.",
   },
   {
     icon: "🏢",
@@ -27,7 +27,7 @@ const cases = [
   {
     icon: "⛏️",
     title: "Jobsite",
-    desc: "Outdoor crews get instant alerts and 7-day outlooks for smarter, safer scheduling.",
+    desc: "Outdoor crews get timely alerts and 7-day outlooks for smarter, safer scheduling.",
   },
 ];
 

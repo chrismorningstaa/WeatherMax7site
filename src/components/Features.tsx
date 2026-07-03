@@ -14,7 +14,7 @@ const features = [
   {
     icon: "⚡",
     title: "Rapid Weather Alerts",
-    desc: "Severe weather alerts delivered as soon as the NWS issues them — warnings, watches, and advisories.",
+    desc: "Severe weather alerts pulled directly from the NWS — warnings, watches, and advisories.",
   },
   {
     icon: "⚠️",
